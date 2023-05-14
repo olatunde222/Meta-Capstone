@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 10%;
+    background-color: #495E57;
+}
+
+footer img {
+    width: 15%;
+}
+
+footer h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+footer div ul {
+    align-self: center;
+    list-style: none;
+}
+
+footer div ul li {
+    font-size: 16;
+    font-weight: 800;
+    padding: 5px;
+    color: white;
+    font-family: 'Karla';
+}
+footer div ul li a {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,103 @@
+.hero {
+    display: flex;
+    background-color: #495e57;
+    position: relative;
+    min-height: 70vh;
+}
+
+.hero img {
+    width: 28%;
+    aspect-ratio: 1/1.2;
+    border-radius: 16px;
+    position: absolute;
+    bottom: -15%;
+    right: 12%;
+}
+
+.hero-title {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 3% 8%;
+}
+
+.hero h1 {
+    font-size: 70px;
+    color: #F4CE14;
+    margin: 0;
+}
+
+.hero-title h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+
+.hero-title p {
+    width: 35%;
+    font-size: 27px;
+    color: white;
+}
+
+.hero-title a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+    background-color: #F4CE14;
+    padding: 15px 50px;
+    border-radius: 40px;
+    margin-top: 15px;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.special-online {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 25%;
+    margin-top: 50px;
+
+}
+.specials {
+    font-size: 60px;
+    font-weight: 700;
+}
+.online-menu {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Karla';
+    color: black;
+    background-color: #F4CE14;
+    padding: 15px 50px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.testi-container {
+    background-color: #495E57;
+    margin-top: 15px;
+    padding-bottom: 60px;
+}
+
+.testimonial-cards {
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    width: 100%;
+    justify-content: center;
+}
+.testimonial-title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    color: #F4CE14;
+}
